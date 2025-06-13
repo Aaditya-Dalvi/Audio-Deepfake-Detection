@@ -1,0 +1,49 @@
+
+        body {
+            background-color: #f4f6f9;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Title styling */
+        .stApp h1 {
+            font-size: 2.6rem;
+            font-weight: 700;
+            text-align: center;
+            color: #30336b;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            margin-bottom: 1rem;
+        }
+
+        /* File uploader box */
+        section[data-testid="stFileUploader"] > div {
+            background-color: #ffffff;
+            padding: 1.2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        /* Audio player spacing */
+        audio {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Metric box */
+        .element-container:has(.stMetric) {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+
+        /* Expander section */
+        details {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 0.8rem;
+        }
+
+        /* Spinner alignment */
+        .stSpinner {
+            margin-top: 1.5rem;
+        }
