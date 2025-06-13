@@ -1,0 +1,23 @@
+# Core App
+streamlit
+streamlit-lottie
+streamlit-cookies-manager
+
+# Deep Learning
+torch
+torchaudio
+
+# Audio Processing
+librosa
+sounddevice
+scipy
+numpy
+
+# Firebase
+firebase-admin
+
+# Utilities
+requests
+python-dotenv
+tqdm
+scikit-learn
